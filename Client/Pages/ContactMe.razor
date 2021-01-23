@@ -1,0 +1,99 @@
+﻿@*@page "/ContactMe"
+
+
+
+<div class="container-fluid">
+    <div class="row" style="margin-bottom:30px">
+        <div class="col-2">
+            <img src="/Images/IWouldHireHim.png" />
+        </div>
+        <div class="col-8">
+            <div class="container-fluid" style="border:1px solid #4d4d50 ; margin:2px">
+                <div class="row" style="border:2px solid #4d4d50">
+                    <div class="col" style="border:1px solid #4d4d50">
+                        <p class="text-center" style="font-weight:bold;"> Email : Vigiljd8@gmail.com</p>
+                    </div>
+                    <div class="col" style="border:1px solid #4d4d50">
+                        <p class="text-center" style="font-weight:bold; align-content:center"> Phone : +1 (360) 286-6358</p>
+                    </div>
+                </div>
+                <div class="row" style="border:1px solid #4d4d50">
+                    <div class="col justify-content-center" style="border:1px solid #4d4d50">
+                        <p class="text-center"><a href="https://www.linkedin.com/in/jared-vigil-37a036108/" target="_blank">LinkedIn</a></p>
+                    </div>
+                    <div class="col justify-content-center" style="border:1px solid #4d4d50">
+                        <p class="text-center"><a href="https://github.com/JaredVigil" target="_blank">GitHub</a></p>
+
+                    </div>
+                    <div class="col justify-content-center" style="border:1px solid #4d4d50">
+                        <p class="text-center"><a href="https://vigilcoding.cloud/" target="_blank">Blog</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="row" style="margin-bottom:10px">
+                <h2>
+                    Contact Me!
+                </h2>
+                <p>
+                    Please, if you want to contact me, just shoot me an email or call me. If you want more infor about something on my site
+                    please let me know. Or if you just have some questions. I would love to hear from you! Thanks for all your time!
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:right">
+                    <label class="text-right" style="font-weight:bold"> From: </label>
+                </div>
+                <div class=" col-8">
+                    <input style="width:100%" type="text" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:right">
+                    <label class="text-right" style="font-weight:bold"> Subject: </label>
+                </div>
+                <div class=" col-8">
+                    <input style="width:100%" type="text" />
+                </div>
+            </div>
+            <div class="row" style="width:100%">
+                <div class="col-2" style="text-align:right">
+
+                </div>
+                <div class="col-8 h-100">
+                    <textarea style="width:100%">
+
+                    </textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+                    <button @onclick="SendEmail" value="Send" />
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@using System;
+@using System.Net;
+@using System.Net.Mail;
+@using System.Net.Mime;
+@using System.Threading;
+@using System.ComponentModel;
+
+
+@code {
+
+    private void SendEmail(MouseEventArgs e)
+    {
+        
+    }
+}*@
